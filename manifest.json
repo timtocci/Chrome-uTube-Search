@@ -1,0 +1,19 @@
+{
+	"name" : "uTube Search",
+	"short_name": "yt Search",
+	"description" : "To use, type 'yt' & space, and a query term into the Omnibox. timothytocci.com",
+	"version" : "0.1",
+	"background" : {
+		"scripts" : ["background.js"]
+	},
+	"omnibox" : {
+		"keyword" : "yt"
+	},
+	"icons" : {
+		"16" : "yt_16.png",
+		"32" : "yt_32.png",
+		"48" : "yt_48.png",
+		"128" : "yt_128.png"
+	},
+	"manifest_version" : 2
+}
